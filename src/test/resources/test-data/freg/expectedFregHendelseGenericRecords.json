@@ -1,0 +1,47 @@
+{
+  "dokumentidentifikator": "6a6855100509e7fc1d86c1154a075d3d",
+  "skjemaversjon": "1.0",
+  "hendelse": {
+    "folkeregisteridentifikator": "42056399946",
+    "hendelsestype": "endringIFalskIdentitet",
+    "ajourholdstidspunkt": "2019-05-03T10:16:35.902+02:00",
+    "egenskapshendelse": [
+      {
+        "falskIdentitet": {
+          "ajourholdstidspunkt": "2019-05-03T10:16:35.902+02:00",
+          "kilde": "Synutopia",
+          "rettIdentitetVedOpplysninger": {
+            "personnavn": {
+              "fornavn": "retorisk",
+              "etternavn": "halvøy"
+            },
+            "statsborgerskap": [
+              "AUS"
+            ]
+          },
+          "erFalsk": true
+        },
+        "entitet": "falskIdentitet",
+        "entitetsendring": "registrereNy"
+      },
+      {
+        "falskIdentitet": {
+          "ajourholdstidspunkt": "2019-05-03T10:16:35.902+02:00",
+          "kilde": "Synutopia",
+          "rettIdentitetVedOpplysninger": {
+            "personnavn": {
+              "fornavn": "retorisk2",
+              "etternavn": "halvøy2"
+            },
+            "statsborgerskap": [
+              "AUS"
+            ]
+          },
+          "erFalsk": true
+        },
+        "entitet": "falskIdentitet",
+        "entitetsendring": "registrereNy"
+      }
+    ]
+  }
+}

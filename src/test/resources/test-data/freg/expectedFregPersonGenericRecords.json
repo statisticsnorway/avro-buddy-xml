@@ -1,0 +1,212 @@
+{
+  "falskIdentitet": {
+    "ajourholdstidspunkt": "2019-05-03T10:16:35.902+02:00",
+    "erGjeldende": true,
+    "kilde": "Synutopia",
+    "rettIdentitetVedOpplysninger": {
+      "personnavn": {
+        "fornavn": "retorisk",
+        "etternavn": "halvøy"
+      },
+      "statsborgerskap": [
+        "AUS"
+      ]
+    },
+    "erFalsk": true
+  },
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "erGjeldende": true,
+      "kilde": "SYNUTOPIA",
+      "gyldighetstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "42056399946",
+      "identifikatortype": "dNummer"
+    }
+  ],
+  "identitetsgrunnlag": [
+    {
+      "ajourholdstidspunkt": "2019-07-30T10:07:08.328+02:00",
+      "erGjeldende": true,
+      "kilde": "skatteetaten",
+      "gyldighetstidspunkt": "2019-07-30T10:07:08.328+02:00",
+      "identitetsgrunnlagstatus": "ikkeKontrollert"
+    },
+    {
+      "ajourholdstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "erGjeldende": false,
+      "kilde": "utlendingsdirektoratet",
+      "gyldighetstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "identitetsgrunnlagstatus": "ingenStatus"
+    },
+    {
+      "ajourholdstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "erGjeldende": false,
+      "kilde": "utlendingsdirektoratet",
+      "gyldighetstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "identitetsgrunnlagstatus": "ikkeKontrollert"
+    },
+    {
+      "ajourholdstidspunkt": "2019-05-03T10:42:58.146+02:00",
+      "erGjeldende": false,
+      "kilde": "skatteetaten",
+      "gyldighetstidspunkt": "2019-05-03T10:42:58.146+02:00",
+      "identitetsgrunnlagstatus": "ikkeKontrollert"
+    },
+    {
+      "ajourholdstidspunkt": "2019-04-28T11:09:44.122+02:00",
+      "erGjeldende": false,
+      "kilde": "utlendingsdirektoratet",
+      "gyldighetstidspunkt": "2019-04-28T11:09:44.122+02:00",
+      "identitetsgrunnlagstatus": "ikkeKontrollert"
+    },
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:50:19.245+02:00",
+      "erGjeldende": false,
+      "kilde": "utlendingsdirektoratet",
+      "gyldighetstidspunkt": "2019-04-28T10:50:19.245+02:00",
+      "identitetsgrunnlagstatus": "ikkeKontrollert"
+    }
+  ],
+  "legitimasjonsdokument": [
+    {
+      "ajourholdstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "erGjeldende": true,
+      "kilde": "utlendingsdirektoratet",
+      "identifikasjonsdokumentnummer": "Id-dok-1558165250999",
+      "identifikasjonsdokumenttype": "foererkort",
+      "utstederland": "XXX",
+      "gyldigFra": "2016-07-27",
+      "dokumentkontroll": {
+        "dokumentkontrollstatus": "ikkeKontrollertIdentifikasjonsdokument",
+        "dokumentkontrolltidspunkt": "2019-05-18T09:40:50.995+02:00"
+      }
+    },
+    {
+      "ajourholdstidspunkt": "2019-04-28T11:09:44.122+02:00",
+      "erGjeldende": true,
+      "kilde": "utlendingsdirektoratet",
+      "identifikasjonsdokumentnummer": "Id-dok-1556442584125",
+      "identifikasjonsdokumenttype": "foererkort",
+      "utstederland": "PRT",
+      "gyldigFra": "2013-01-23",
+      "dokumentkontroll": {
+        "dokumentkontrollstatus": "ikkeKontrollertIdentifikasjonsdokument",
+        "dokumentkontrolltidspunkt": "2019-04-28T11:09:44.122+02:00"
+      }
+    },
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:50:19.245+02:00",
+      "erGjeldende": true,
+      "kilde": "utlendingsdirektoratet",
+      "identifikasjonsdokumenttype": "annet",
+      "utstederland": "CYM"
+    },
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:50:19.245+02:00",
+      "erGjeldende": true,
+      "kilde": "utlendingsdirektoratet",
+      "identifikasjonsdokumentnummer": "Id-dok-1556441419247",
+      "identifikasjonsdokumenttype": "foererkort",
+      "utstederland": "DNK",
+      "gyldigFra": "2011-12-25",
+      "dokumentkontroll": {
+        "dokumentkontrollstatus": "ikkeKontrollertIdentifikasjonsdokument",
+        "dokumentkontrolltidspunkt": "2019-04-28T10:50:19.245+02:00"
+      }
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "erGjeldende": true,
+      "kilde": "SYNUTOPIA",
+      "gyldighetstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "status": "midlertidig"
+    }
+  ],
+  "utlendingsmyndighetenesIdentifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "erGjeldende": true,
+      "kilde": "utlendingsdirektoratet",
+      "gyldighetstidspunkt": "2019-07-30T10:07:08.328+02:00",
+      "identifikasjonsnummer": "960555812510",
+      "identifikasjonsnummertype": "utlendingsmyndighetenesIdentifikasjonsnummer",
+      "utstederland": "XXX"
+    },
+    {
+      "ajourholdstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "erGjeldende": true,
+      "kilde": "utlendingsdirektoratet",
+      "gyldighetstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "identifikasjonsnummer": "161555812503",
+      "identifikasjonsnummertype": "utlendingsmyndighetenesIdentifikasjonsnummer",
+      "utstederland": "ITA"
+    },
+    {
+      "ajourholdstidspunkt": "2019-04-28T11:09:44.122+02:00",
+      "erGjeldende": true,
+      "kilde": "utlendingsdirektoratet",
+      "gyldighetstidspunkt": "2019-05-18T09:40:50.995+02:00",
+      "identifikasjonsnummer": "144255645808",
+      "identifikasjonsnummertype": "utlendingsmyndighetenesIdentifikasjonsnummer",
+      "utstederland": "PRT"
+    },
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:50:19.245+02:00",
+      "erGjeldende": true,
+      "kilde": "utlendingsdirektoratet",
+      "gyldighetstidspunkt": "2019-04-28T10:50:19.245+02:00",
+      "identifikasjonsnummer": "249155644105",
+      "identifikasjonsnummertype": "utlendingsmyndighetenesIdentifikasjonsnummer",
+      "utstederland": "MTQ"
+    }
+  ],
+  "kjoenn": [
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "erGjeldende": true,
+      "kilde": "synutopia",
+      "aarsak": "SyntheticDataGen",
+      "gyldighetstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "erGjeldende": true,
+      "kilde": "synutopia",
+      "aarsak": "SyntheticDataGen",
+      "gyldighetstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "foedselsdato": "1963-05-02",
+      "foedselsaar": "1963",
+      "foedeland": "NZL"
+    }
+  ],
+  "sivilstand": [
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "erGjeldende": true,
+      "kilde": "synutopia",
+      "aarsak": "SyntheticDataGen",
+      "gyldighetstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "sivilstand": "uoppgitt",
+      "sivilstandsdato": "2019-04-28"
+    }
+  ],
+  "navn": [
+    {
+      "ajourholdstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "erGjeldende": true,
+      "kilde": "synutopia",
+      "aarsak": "SyntheticDataGen",
+      "gyldighetstidspunkt": "2019-04-28T10:30:47.065+02:00",
+      "fornavn": "ETTERPÅKLOK",
+      "etternavn": "KONGLEBIT",
+      "forkortetNavn": "ETTERPÅKLOK  KONGLEBIT"
+    }
+  ]
+}

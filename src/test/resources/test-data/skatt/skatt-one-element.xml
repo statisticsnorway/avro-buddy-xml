@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wstxns1:uttrekkSkattemelding xmlns:wstxns1="urn:no:skatteetaten:datasamarbeid:uttrekkskattemelding:v1">
+    <skattepliktig xmlns="urn:no:skatteetaten:datasamarbeid:uttrekkskattemelding:v1">
+        <eiendom>
+            <bruksnummer>632</bruksnummer>
+            <gaardsnummer>265</gaardsnummer>
+            <kommunenummer>0249</kommunenummer>
+            <beregnetMarkedsverdiForBolig>3339195</beregnetMarkedsverdiForBolig>
+            <boligbruk>primaerbolig</boligbruk>
+            <eiendomstype>selveidBolig</eiendomstype>
+            <boligtype>enebolig</boligtype>
+            <boligensAreal>108</boligensAreal>
+            <byggeaar>1985</byggeaar>
+            <gateadresse>Søre Stølen</gateadresse>
+            <bruksenhetsnummer>U1111</bruksenhetsnummer>
+            <husnummer>80</husnummer>
+            <beliggenhetskode>6</beliggenhetskode>
+            <SERGEiendomsidentifikator>1422657</SERGEiendomsidentifikator>
+            <kommunenummerVedUtgangenAvSkattleggingsperioden>0249</kommunenummerVedUtgangenAvSkattleggingsperioden>
+        </eiendom>
+        <gaveTilFrivilligOrganisasjon>
+            <navnGodkjentGavemottaker>SUVERENE UVIRKSOMME DRESSER</navnGodkjentGavemottaker>
+            <organisasjonsnummerGodkjentGavemottaker>911699400</organisasjonsnummerGodkjentGavemottaker>
+            <beloep>1447763865</beloep>
+        </gaveTilFrivilligOrganisasjon>
+        <kollektivPensjonsordning>
+            <pensjonsutbetalersNavn>AKSEPTABLE LYSE GENSERE AS</pensjonsutbetalersNavn>
+            <organisasjonsnummer>881215772</organisasjonsnummer>
+            <pensjonstype>alderspensjonFraFolketrygden</pensjonstype>
+            <pensjonsinntektPerSkattleggingsperiode>6808</pensjonsinntektPerSkattleggingsperiode>
+        </kollektivPensjonsordning>
+        <konto>
+            <kontonummer>58559257948</kontonummer>
+            <organisasjonsnummer>890534422</organisasjonsnummer>
+            <bankensNavn>FORSTÅELSESFULLE UPÅKLAGELIGE-FISKESTENGER</bankensNavn>
+            <innskudd>4539</innskudd>
+            <opptjenteRenter>3536</opptjenteRenter>
+            <gjeld>2865</gjeld>
+            <paaloepteRenter>8618</paaloepteRenter>
+            <tilbakefoerteRenter>6118</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>7903</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>57252814150</kontonummer>
+            <organisasjonsnummer>980768201</organisasjonsnummer>
+            <bankensNavn>VÅKNE SJENERTE FYRSTIKKER</bankensNavn>
+            <innskudd>2747</innskudd>
+            <opptjenteRenter>9552</opptjenteRenter>
+            <gjeld>9604</gjeld>
+            <paaloepteRenter>7157</paaloepteRenter>
+            <tilbakefoerteRenter>7222</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>1452</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>54081420346</kontonummer>
+            <organisasjonsnummer>997277260</organisasjonsnummer>
+            <bankensNavn>RASKE KUNNSKAPSRIKE-EVENTYR</bankensNavn>
+            <innskudd>753</innskudd>
+            <opptjenteRenter>6390</opptjenteRenter>
+            <gjeld>1666</gjeld>
+            <paaloepteRenter>6964</paaloepteRenter>
+            <tilbakefoerteRenter>7481</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>5946</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>52584558423</kontonummer>
+            <organisasjonsnummer>972458643</organisasjonsnummer>
+            <bankensNavn>TRØTTE GRØNNE SMÅGNAGERE</bankensNavn>
+            <innskudd>578</innskudd>
+            <opptjenteRenter>1135</opptjenteRenter>
+            <gjeld>7895</gjeld>
+            <paaloepteRenter>9511</paaloepteRenter>
+            <tilbakefoerteRenter>1833</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>4294</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>51496974267</kontonummer>
+            <organisasjonsnummer>998903270</organisasjonsnummer>
+            <bankensNavn>SNODIGE FANTASIFULLE FØTTER AS</bankensNavn>
+            <innskudd>5290</innskudd>
+            <opptjenteRenter>5619</opptjenteRenter>
+            <gjeld>9675</gjeld>
+            <paaloepteRenter>1494</paaloepteRenter>
+            <tilbakefoerteRenter>5606</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>1149</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>57788702541</kontonummer>
+            <organisasjonsnummer>998903270</organisasjonsnummer>
+            <bankensNavn>SNODIGE FANTASIFULLE FØTTER AS</bankensNavn>
+            <innskudd>5874</innskudd>
+            <opptjenteRenter>1321</opptjenteRenter>
+            <gjeld>6978</gjeld>
+            <paaloepteRenter>8978</paaloepteRenter>
+            <tilbakefoerteRenter>8598</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>6858</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>52228187437</kontonummer>
+            <organisasjonsnummer>998903270</organisasjonsnummer>
+            <bankensNavn>SNODIGE FANTASIFULLE FØTTER AS</bankensNavn>
+            <innskudd>9049</innskudd>
+            <opptjenteRenter>6850</opptjenteRenter>
+            <gjeld>7580</gjeld>
+            <paaloepteRenter>1086</paaloepteRenter>
+            <tilbakefoerteRenter>3623</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>414</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>53588417650</kontonummer>
+            <organisasjonsnummer>998903270</organisasjonsnummer>
+            <bankensNavn>SNODIGE FANTASIFULLE FØTTER AS</bankensNavn>
+            <innskudd>9941</innskudd>
+            <opptjenteRenter>1670</opptjenteRenter>
+            <gjeld>1730</gjeld>
+            <paaloepteRenter>5444</paaloepteRenter>
+            <tilbakefoerteRenter>2105</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>2909</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>58772424548</kontonummer>
+            <organisasjonsnummer>998903270</organisasjonsnummer>
+            <bankensNavn>SNODIGE FANTASIFULLE FØTTER AS</bankensNavn>
+            <innskudd>8517</innskudd>
+            <opptjenteRenter>4749</opptjenteRenter>
+            <gjeld>2636</gjeld>
+            <paaloepteRenter>6968</paaloepteRenter>
+            <tilbakefoerteRenter>408</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>4943</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>54394206418</kontonummer>
+            <organisasjonsnummer>998903270</organisasjonsnummer>
+            <bankensNavn>SNODIGE FANTASIFULLE FØTTER AS</bankensNavn>
+            <innskudd>8985</innskudd>
+            <opptjenteRenter>9199</opptjenteRenter>
+            <gjeld>6543</gjeld>
+            <paaloepteRenter>2399</paaloepteRenter>
+            <tilbakefoerteRenter>4466</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>7719</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>56771341441</kontonummer>
+            <organisasjonsnummer>917312303</organisasjonsnummer>
+            <bankensNavn>UIMOTSTÅELIGE DELTAKENDE DYNER AS</bankensNavn>
+            <innskudd>443</innskudd>
+            <opptjenteRenter>412</opptjenteRenter>
+            <gjeld>2220</gjeld>
+            <paaloepteRenter>8013</paaloepteRenter>
+            <tilbakefoerteRenter>7590</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>9169</betalteMisligholdteRenter>
+        </konto>
+        <konto>
+            <kontonummer>56721591242</kontonummer>
+            <organisasjonsnummer>917312303</organisasjonsnummer>
+            <bankensNavn>UIMOTSTÅELIGE DELTAKENDE DYNER AS</bankensNavn>
+            <innskudd>6283</innskudd>
+            <opptjenteRenter>9904</opptjenteRenter>
+            <gjeld>1479</gjeld>
+            <paaloepteRenter>9015</paaloepteRenter>
+            <tilbakefoerteRenter>5675</tilbakefoerteRenter>
+            <betalteMisligholdteRenter>9730</betalteMisligholdteRenter>
+        </konto>
+        <livsforsikring>
+            <livsforsikringsselskapetsNavn>FREMADSTORMENDE FORTRYLLENDE DYREVERNERE AS</livsforsikringsselskapetsNavn>
+            <organisasjonsnummer>993051667</organisasjonsnummer>
+            <forsikringsnummer>8346304264061761728</forsikringsnummer>
+            <inntektFraLivsforsikring>1988</inntektFraLivsforsikring>
+            <typeInntektFraLivsforsikring>AvkastningAvKapitalforsikringsavtale</typeInntektFraLivsforsikring>
+            <formueAvLivsforsikring>7265</formueAvLivsforsikring>
+            <typeFormueAvLivsforsikring>Premiefond</typeFormueAvLivsforsikring>
+        </livsforsikring>
+        <livsforsikring>
+            <livsforsikringsselskapetsNavn>ARTIGE LOMPEBAKERIER</livsforsikringsselskapetsNavn>
+            <organisasjonsnummer>976442180</organisasjonsnummer>
+            <forsikringsnummer>48976095496789334222</forsikringsnummer>
+            <inntektFraLivsforsikring>4337</inntektFraLivsforsikring>
+            <typeInntektFraLivsforsikring>AvkastningAvKapitalforsikringsavtale</typeInntektFraLivsforsikring>
+            <formueAvLivsforsikring>957</formueAvLivsforsikring>
+            <typeFormueAvLivsforsikring>GjenkjoepsverdiAvKapitalforsikringsavtale</typeFormueAvLivsforsikring>
+        </livsforsikring>
+        <livsforsikring>
+            <livsforsikringsselskapetsNavn>BRILJANTE HVERDAGSLIGE GULV</livsforsikringsselskapetsNavn>
+            <organisasjonsnummer>999241832</organisasjonsnummer>
+            <forsikringsnummer>3000934595502694</forsikringsnummer>
+            <fradragsberettigetTapPaaLivsforsikring>5212</fradragsberettigetTapPaaLivsforsikring>
+            <inntektFraLivsforsikring>9053</inntektFraLivsforsikring>
+            <typeInntektFraLivsforsikring>AvkastningAvKapitalforsikringsavtale</typeInntektFraLivsforsikring>
+            <formueAvLivsforsikring>9445</formueAvLivsforsikring>
+            <typeFormueAvLivsforsikring>GjenkjoepsverdiAvKapitalforsikringsavtale</typeFormueAvLivsforsikring>
+        </livsforsikring>
+        <oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+            <andelAvFellesgjeldIBoligsameie>2621</andelAvFellesgjeldIBoligsameie>
+            <andelAvAnnenFormueIBoligsameie>8793</andelAvAnnenFormueIBoligsameie>
+            <navn>TREGE LEDENDE FØTTER</navn>
+            <organisasjonsnummer>996172147</organisasjonsnummer>
+            <andelAvFradragsberettigedeRenterIBoligsameie>3253</andelAvFradragsberettigedeRenterIBoligsameie>
+        </oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+        <oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+            <andelAvFellesgjeldIBoligselskap>7473</andelAvFellesgjeldIBoligselskap>
+            <navn>GLITRENDE UPÅKLAGELIGE LOKOMOTIVER</navn>
+            <organisasjonsnummer>973875426</organisasjonsnummer>
+        </oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+        <oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+            <andelAvFellesgjeldIBoligselskap>9397</andelAvFellesgjeldIBoligselskap>
+            <andelAvAnnenFormueIBoligselskap>5999</andelAvAnnenFormueIBoligselskap>
+            <navn>OPPVAKTE SPRUDLENDE DRAGER</navn>
+            <organisasjonsnummer>913225686</organisasjonsnummer>
+        </oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+        <oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+            <navn>LYSE SPØKEFULLE PAPPESKER</navn>
+            <organisasjonsnummer>985058601</organisasjonsnummer>
+            <andelAvInntektIBoligselskap>2028</andelAvInntektIBoligselskap>
+            <andelAvFradragsberettigedeRenterIBoligselskap>5450</andelAvFradragsberettigedeRenterIBoligselskap>
+        </oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+        <oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+            <navn>IDIOTSIKRE ORANSJE TRAMPOLINER</navn>
+            <organisasjonsnummer>916868154</organisasjonsnummer>
+        </oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+        <oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+            <andelAvAnnenFormueIBoligselskap>3943</andelAvAnnenFormueIBoligselskap>
+            <navn>LATTERMILDE VELLYKKEDE KKONTORISTER</navn>
+            <organisasjonsnummer>982035538</organisasjonsnummer>
+        </oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+        <oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+            <navn>REKTANGULÆRE FLATE KJØKKENINNREDNINGER</navn>
+            <organisasjonsnummer>999392318</organisasjonsnummer>
+            <andelAvInntektIBoligselskap>3051</andelAvInntektIBoligselskap>
+        </oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+        <oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+            <navn>DELTAKENDE OPPVAKTE SKYTTERE</navn>
+            <organisasjonsnummer>917330441</organisasjonsnummer>
+            <andelAvInntektIBoligselskap>4854</andelAvInntektIBoligselskap>
+        </oekonomiskeForholdKnyttetTilBoligsameieEllerBoligselskap>
+        <skattepliktigKundeutbytteUtenforVirksomhetPerUtbetaler>
+            <utbetaltBeloep>156790</utbetaltBeloep>
+            <navn>SMÅ UVIRKELIGE DRØMMERE</navn>
+            <organisasjonsnummer>972875791</organisasjonsnummer>
+        </skattepliktigKundeutbytteUtenforVirksomhetPerUtbetaler>
+        <personidentifikator>17073846757</personidentifikator>
+    </skattepliktig>
+</wstxns1:uttrekkSkattemelding>
