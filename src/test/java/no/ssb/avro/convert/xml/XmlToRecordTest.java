@@ -41,25 +41,6 @@ class XmlToRecordTest {
         assertThat(json).isEqualTo(TestUtils.expectedFregHendelseGenericRecordsAsJson());
     }
 
-    Schema schemaCdCatalog = SchemaBuilder
-            .record("CATALOG")
-            .fields()
-            .name("cds").type(
-                    SchemaBuilder.array()
-                            .items(SchemaBuilder.record("CD")
-                                    .fields()
-                                    .name("TITLE").type().stringType().noDefault()
-                                    .name("ARTIST").type().stringType().noDefault()
-                                    .name("COUNTRY").type().stringType().noDefault()
-                                    .name("COMPANY").type().stringType().noDefault()
-                                    .name("PRICE").type().doubleType().noDefault()
-                                    .name("YEAR").type().intType().noDefault()
-                                    .name("BIG_NUM").type().optional().longType()
-                                    .endRecord()
-                            )
-            ).noDefault()
-            .endRecord();
-
     private String getRecordsAsString(InputStream inputStream, Schema schema, String topElement) throws XMLStreamException {
         RecursiveXmlParser xmlParser = new RecursiveXmlParser(inputStream, topElement);
 
