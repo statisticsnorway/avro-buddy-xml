@@ -44,10 +44,6 @@ class XmlToRecordsTest {
         InputStream inputStream = TestUtils.catalogXml();
         List<GenericRecord> records = new ArrayList<>();
         try (XmlToRecords xmlToRecords = new XmlToRecords(inputStream, "CATALOG", schemaCdCatalog)) {
-            for (GenericRecord record : xmlToRecords) {
-
-            }
-
             xmlToRecords.forEach(records::add);
         } catch (XMLStreamException | IOException e) {
             throw new TestAbortedException(e.getMessage());
