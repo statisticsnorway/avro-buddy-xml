@@ -13,6 +13,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 public class RecursiveXmlParser implements AutoCloseable, Iterable<DataElement> {
     private final InputStream stream;
@@ -58,6 +59,9 @@ public class RecursiveXmlParser implements AutoCloseable, Iterable<DataElement> 
 
             @Override
             public DataElement next() {
+                if (!reader.hasNext()) {
+                    throw new NoSuchElementException();
+                }
                 try {
                     return new RecursiveElement(reader, topElement).parse();
                 } catch (XMLStreamException e) {

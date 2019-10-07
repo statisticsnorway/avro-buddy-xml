@@ -8,8 +8,11 @@ import org.opentest4j.TestAbortedException;
 import javax.xml.stream.XMLStreamException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class RecursiveXmlParserTest {
 
@@ -41,5 +44,29 @@ class RecursiveXmlParserTest {
                 " |    |    |-- YEAR value:1988\n";
 
         assertThat(expected).isEqualTo(root.toString(true));
+    }
+
+    @Test
+    void shouldThrowNoSuchElementException() {
+        InputStream inputStream = TestUtils.catalogXml();
+        try (RecursiveXmlParser dataElements = new RecursiveXmlParser(inputStream, "CD")) {
+            Iterator<DataElement> iterator = dataElements.iterator();
+
+            assertThat(iterator.hasNext()).isTrue();
+            DataElement element1 = iterator.next();
+            assertThat(element1.findChildByName("ARTIST").getValue()).isEqualTo("Bob Dylan");
+
+            assertThat(iterator.hasNext()).isTrue();
+            DataElement element2 = iterator.next();
+            assertThat(element2.findChildByName("ARTIST").getValue()).isEqualTo("Bonnie Tyler");
+
+            assertThat(iterator.hasNext()).isFalse();
+
+            assertThatThrownBy(iterator::next)
+                    .isInstanceOf(NoSuchElementException.class);
+
+        } catch (XMLStreamException | IOException e) {
+            throw new TestAbortedException(e.getMessage());
+        }
     }
 }
