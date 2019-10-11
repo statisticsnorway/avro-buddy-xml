@@ -6,11 +6,18 @@
 
     <groupId>no.ssb.avro.convert.xml</groupId>
     <artifactId>avro-buddy-xml</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com/statisticsnorway/avro-buddy-xml.git</connection>
+        <developerConnection>scm:git:git@github.com:statisticsnorway/avro-buddy-xml.git</developerConnection>
+        <url>https://github.com/statisticsnorway/avro-buddy-xml</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <profiles>
         <profile>
