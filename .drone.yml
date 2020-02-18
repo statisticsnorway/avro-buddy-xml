@@ -87,9 +87,6 @@ steps:
       M2_HOME: /drone/src/.m2
     depends_on:
       - sonarqube
-      - codacy
-      - codecov-plugin
-      - codecov-manual
 
   - name: slack
     image: plugins/slack
