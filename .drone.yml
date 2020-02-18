@@ -30,24 +30,24 @@ steps:
     depends_on:
       - build
 
-  - name: codecov-manual
-    image: alpine:3
-    commands:
-      - apk add --no-cache bash curl findutils git
-      - curl -s https://codecov.io/bash | bash
-    environment:
-      CODECOV_TOKEN:
-        from_secret: codecov_token
-    depends_on:
-      - test
-
-  - name: codecov-plugin
-    image: plugins/codecov
-    settings:
-      token:
-        from_secret: codecov_token
-    depends_on:
-      - test
+#  - name: codecov-manual
+#    image: alpine:3
+#    commands:
+#      - apk add --no-cache bash curl findutils git
+#      - curl -s https://codecov.io/bash | bash
+#    environment:
+#      CODECOV_TOKEN:
+#        from_secret: codecov_token
+#    depends_on:
+#      - test
+#
+#  - name: codecov-plugin
+#    image: plugins/codecov
+#    settings:
+#      token:
+#        from_secret: codecov_token
+#    depends_on:
+#      - test
 
   - name: codacy
     image: maven:3-jdk-11
