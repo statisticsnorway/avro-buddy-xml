@@ -3,6 +3,7 @@ package no.ssb.avro.convert.xml;
 import no.ssb.avro.convert.core.DataElement;
 import no.ssb.avro.convert.core.SchemaAwareElement;
 import no.ssb.avro.convert.core.SchemaBuddy;
+import no.ssb.avro.convert.core.ValueInterceptor;
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericRecord;
 
@@ -25,6 +26,15 @@ public class XmlToRecords implements AutoCloseable, Iterable<GenericRecord> {
 
     public XmlToRecords(InputStream inputStream, String topElement, Schema schema) throws XMLStreamException {
         this.recursiveXmlParser = new RecursiveXmlParser(inputStream, topElement);
+        this.schemaBuddy = SchemaBuddy.parse(schema);
+    }
+
+    public XmlToRecords(String fileName, String topElement, Schema schema, ValueInterceptor valueInterceptor) throws XMLStreamException, FileNotFoundException {
+        this(new FileInputStream(fileName), topElement, schema, valueInterceptor);
+    }
+
+    public XmlToRecords(InputStream inputStream, String topElement, Schema schema, ValueInterceptor valueInterceptor) throws XMLStreamException {
+        this.recursiveXmlParser = new RecursiveXmlParser(inputStream, topElement).withValueInterceptor(valueInterceptor);
         this.schemaBuddy = SchemaBuddy.parse(schema);
     }
 

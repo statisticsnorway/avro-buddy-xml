@@ -1,6 +1,7 @@
 package no.ssb.avro.convert.xml;
 
 import no.ssb.avro.convert.core.DataElement;
+import no.ssb.avro.convert.core.ValueInterceptor;
 
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
@@ -19,6 +20,7 @@ public class RecursiveXmlParser implements AutoCloseable, Iterable<DataElement> 
     private final InputStream stream;
     private final XMLEventReader reader;
     private final String topElement;
+    private ValueInterceptor valueInterceptor;
 
     public RecursiveXmlParser(String fileName, String topElement) throws XMLStreamException, FileNotFoundException {
         this(new FileInputStream(fileName), topElement);
@@ -31,6 +33,11 @@ public class RecursiveXmlParser implements AutoCloseable, Iterable<DataElement> 
         XMLInputFactory factory = XMLInputFactory.newInstance();
         factory.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, Boolean.FALSE);
         reader = factory.createXMLEventReader(stream, "utf-8");
+    }
+
+    public RecursiveXmlParser withValueInterceptor(ValueInterceptor valueInterceptor) {
+        this.valueInterceptor = valueInterceptor;
+        return this;
     }
 
     @Override
@@ -63,7 +70,7 @@ public class RecursiveXmlParser implements AutoCloseable, Iterable<DataElement> 
                     throw new NoSuchElementException();
                 }
                 try {
-                    return new RecursiveElement(reader, topElement).parse();
+                    return new RecursiveElement(reader, topElement).withValueInterceptor(valueInterceptor).parse();
                 } catch (XMLStreamException e) {
                     throw new RuntimeException(e);
                 }
@@ -82,6 +89,7 @@ public class RecursiveXmlParser implements AutoCloseable, Iterable<DataElement> 
     private static class RecursiveElement {
         private final XMLEventReader reader;
         private final DataElement dataElement;
+        private ValueInterceptor valueInterceptor;
 
         private RecursiveElement(XMLEventReader reader, String topStartElement) {
             this.reader = reader;
@@ -93,13 +101,18 @@ public class RecursiveXmlParser implements AutoCloseable, Iterable<DataElement> 
             return dataElement;
         }
 
+        private RecursiveElement withValueInterceptor(ValueInterceptor valueInterceptor) {
+            this.valueInterceptor = valueInterceptor;
+            return this;
+        }
+
         private void parseInternal(DataElement parentDataElement) throws XMLStreamException {
             while (reader.hasNext()) {
                 final XMLEvent event = reader.nextEvent();
                 if (event.isStartElement()) {
                     StartElement startElement = event.asStartElement();
                     String elementName = startElement.getName().getLocalPart();
-                    DataElement childDataElement = new DataElement(elementName);
+                    DataElement childDataElement = new DataElement(elementName).withValueInterceptor(valueInterceptor);
                     parentDataElement.addChild(childDataElement);
                     parseInternal(childDataElement);
                 } else if (event.isCharacters()) {
